@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="cont-all">
+        <div class="cont-display just-col">
+            <div class="display-all">
+                <span data-js="displayHour">00</span>
+            </div>
+            <div class="display-all">
+                <span data-js="displayMin">00</span>
+            </div>
+            <div class="display-all">
+                <span data-js="displaySec">00</span>
+            </div>
+        </div>
+        <div class="cont-option just-col" data-js="select">
+            <div>
+                <select data-js="hour">Horas</select>
+            </div>
+            <div>
+                <select data-js="min">Minutos</select>
+            </div>
+            <div>
+                <select data-js="sec">Segundos</select>
+            </div>
+        </div>
+        <div class="cont-btn just-col">
+            <button type="button" data-js="start">start</button>
+            <button type="button" data-js="stop">stop</button>
+            <button type="button" data-js="reset">reset</button>
+        </div>
+    </div>
+    
+    <script src="challenge-21.js"></script>
+</body>
+</html>

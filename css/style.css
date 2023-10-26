@@ -1,0 +1,30 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+}
+.cont-all {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.just-col {
+    display: flexbox;
+    /* grid-column: span; */
+}
+div.cont-option select {
+    /* position: relative; */
+    overflow: hidden;
+    appearance: none;
+    padding: 2px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: green;
+    border: none;
+    border-radius: 10%;
+}
